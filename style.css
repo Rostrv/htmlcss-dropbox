@@ -34,10 +34,7 @@ body {
     
 }
 
-p{
-    font-weight:600;
 
-}
 
 img{
     width: 100%;
@@ -261,37 +258,76 @@ margin-right:280px;
 }
  
 
-.elements>.btn-plan{
-    position: relative;
-    right: 20px;
-}
-
 .col-100{
     width:100%;
     
     background-color: orange;
 }
 
-.partner{
-    background-color: pink;
+.margin-bott{
+    margin-bottom: 100px;
 }
 
+.partner{
+    background-color: pink;
+    margin-bottom: 100px;
+}
+
+.partner .col-40{
+    padding: 32px;
+}
+
+
+.col-40>p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.col-40>h2{
+    font-size: 25px;
+}
+
+.trova{
+    color: var(--color-black);
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid var(--color-black);
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+.operazioni .col-30>strong{
+    font-size: 30px;
+}
+
+.operazioni .col-30>p{
+    margin-top: 20px;
+}
+
+.operazioni .col-30{
+    margin-bottom: 50px;
+}
+
+.operazioni h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
 .col-40{
     width: 40%;
     background-color: #A2D39B;
-    height: 200px;
+    
 }
 
 .col-60{
     width: 60%;
     background-color: #A2D39B;
-    height: 200px;
+    
 }
 
 .col-30{
     width:30%;
     
-    background-color: #A2D39B;
+    
 }
 
 .col-30 .col-50{
