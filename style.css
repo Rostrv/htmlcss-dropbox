@@ -93,7 +93,7 @@ a{
 
 .row [class^="col-"] {
     float: left;
-    border: 1px solid rgb(255, 255, 255);
+    
 
 }
 
@@ -102,14 +102,7 @@ a{
     height: 50px;
 }
 
-/*.col-50.sx {
-    background-color: yellow;
-    
-}
-.col-50.dx {
-    background-color: yellowgreen;
-    
-}*/
+
 
 .dx{
     text-align: right;
@@ -169,7 +162,7 @@ a{
 .col-33{
     width:33.33%;
     height: 300px;
-    background-color: orange;
+    
 }
 
 .piani{
@@ -197,9 +190,10 @@ padding-bottom: 30px;
     height: 20px;
 }
 
-.piani .col-30{
-    background-color: orange;
-    border: 1px solid var(--border-col-30);
+.piani .col-30, .col-100{
+    
+    border: 1px solid lightgray;
+    margin-bottom: 100px;
 }
 
 /*.col-30-piani{
@@ -214,7 +208,7 @@ padding-bottom: 30px;
 
 .type{
     padding: 20px;
-    border: solid 1px var(--border-col-30);
+    border: solid 1px lightgray;
 }
 
 .align-center{
@@ -245,6 +239,14 @@ margin-bottom: 20px;
 margin-right:280px;
 
 }
+
+.cadence{
+    color: var(--color-time);
+}
+
+.elements span{
+    color: black;
+}
 .btn-plan {
     padding: 15px 0 30px;
 }
@@ -259,9 +261,9 @@ margin-right:280px;
  
 
 .col-100{
-    width:100%;
+    width:100%;  
+
     
-    background-color: orange;
 }
 
 .margin-bott{
@@ -269,7 +271,7 @@ margin-right:280px;
 }
 
 .partner{
-    background-color: pink;
+    
     margin-bottom: 100px;
 }
 
@@ -331,13 +333,13 @@ margin-right:280px;
 
 .col-40{
     width: 40%;
-    background-color: #A2D39B;
+    
     
 }
 
 .col-60{
     width: 60%;
-    background-color: #A2D39B;
+   
     
     
 }
@@ -348,7 +350,7 @@ margin-right:280px;
 }
 
 .col-left{
-    background-color: violet;
+    
     height:576px;
     width:30%
 }
@@ -363,7 +365,7 @@ margin-right:280px;
 
 
 .col-right{
-    background-color: violet;
+    
     height:576px;
     width:30%
 }
@@ -371,7 +373,7 @@ margin-right:280px;
 .col-lt{
     height: 288px;
     width:50%;
-    background-color: #A2D39B;
+    
     
 }
 .logo-centrale img{
@@ -444,12 +446,22 @@ margin-right:280px;
     
 }
 
-    
-    /*.col-30 .col-50{
-    height: 100px;
-    background-color: red;
+.trial{
+    background-color: var(--bg-jumbo);
+    height: 500px;
+    padding: 125px 0  0 ;
+}
 
-}*/
+.trial h2{
+    font-size: 50px;
+    color:var(--business-color)
+}
+
+.trial a{
+    background-color: var(--color-white);
+    padding: 10px 60px 10px 60px;
+    margin-top: 10px;
+}
 
 .footer{
     background-color: #000000;
