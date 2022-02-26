@@ -295,6 +295,10 @@ margin-right:280px;
     padding: 8px 20px;
     font-weight: 500;
 }
+.operazioni{
+    margin-bottom: 100px;
+}
+
 
 .operazioni .col-30>strong{
     font-size: 30px;
@@ -312,6 +316,19 @@ margin-right:280px;
     font-size: 50px;
     margin-bottom: 50px;
 }
+
+
+.team .titolo>a{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.team .titolo{
+    margin-bottom: 50px;
+}
+
+
 .col-40{
     width: 40%;
     background-color: #A2D39B;
@@ -322,19 +339,117 @@ margin-right:280px;
     width: 60%;
     background-color: #A2D39B;
     
+    
 }
 
 .col-30{
     width:30%;
     
+}
+
+.col-left{
+    background-color: violet;
+    height:576px;
+    width:30%
+}
+
+.col-center{
+    width:40%;
+    height:576px;
+    background-color:var(--bg-partner);
+    padding: 40px;
+}
+
+
+
+.col-right{
+    background-color: violet;
+    height:576px;
+    width:30%
+}
+
+.col-lt{
+    height: 288px;
+    width:50%;
+    background-color: #A2D39B;
+    
+}
+.logo-centrale img{
+    width: 150px;
+}
+
+.logo-centrale p{
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.logo-centrale hr, span{
+    margin-top: 30px;
+    color: var(--hr-color);
+    margin-right: 600px;
+}
+
+.center{
+    width: 150px;
+    filter: invert(1);
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
-.col-30 .col-50{
+.designit{
+    background-color: var(--bg-designit);
+    
+       
+}
+
+
+.asu{
+    background-color: var(--business-color);
+    
+}
+
+.florida{
+    background-color: var(--bg-florida);
+    
+}
+
+.topps{
+    background-color: var(--bg-topps);
+    
+}
+
+.bicycle{
+    background-color: var(--bg-bicycle);
+    
+}    
+
+.hearst{
+    background-color: var(--bg-hearst);
+    
+}
+
+.lonely{
+    background-color: var(--bg-lonely);
+    
+}
+
+.clear{
+    background-color:var(--bg-clear);
+    
+}
+
+    
+    /*.col-30 .col-50{
     height: 100px;
     background-color: red;
 
-}
+}*/
 
 .footer{
     background-color: #000000;
