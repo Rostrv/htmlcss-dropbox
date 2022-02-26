@@ -33,8 +33,54 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar{
+p{
+    font-weight:600;
+
+}
+
+img{
+    width: 100%;
+}
+
+ul.unstyle{
+    list-style: none;
+}
+
+/*.navbar{
     background-color: blue;
+}*/
+
+.navbar .col-50 {
+    padding: 8px 45px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul.unstyle {
+    display: inline-block;
+    
+}
+
+.navbar ul.unstyle>li {
+    display: inline-block;
+    margin: 0 25px;
+    line-height: 30px;
+}
+
+.btn-nav {
+    background-color: var(--btn-bg-color);
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .row::after{
@@ -49,7 +95,7 @@ body {
 
 .row [class^="col-"] {
     float: left;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 
 }
 
@@ -58,19 +104,62 @@ body {
     height: 50px;
 }
 
-.col-50.sx {
+/*.col-50.sx {
     background-color: yellow;
     
 }
 .col-50.dx {
     background-color: yellowgreen;
     
+}*/
+
+.dx{
+    text-align: right;
 }
 
 .jumbo{
     width: 100%;
     background-color: var(--bg-jumbo);
-    height: 600px;
+    height: 780px;
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+
+.jumbo .row{
+    padding-top: 50px;
+}
+
+.jumbo img{
+    margin-left: 80px;
+}
+.title-cont{
+    max-width:1550px;
+    margin:auto;
+    }
+
+.title-cont h1{
+    font-size: 86px;
+  }
+
+.title-cont .col-30{
+    padding-right: 71px;
+}
+
+.btn {
+ background-color: var(--btn-bg-color);
+    color: white;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
+.btn-jumbo {
+    margin: 40px 0;
+}
+
+.btn-jumbo>div {
+    font-size: 16x;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 .container{
@@ -83,6 +172,31 @@ body {
     width:33.33%;
     height: 300px;
     background-color: orange;
+}
+
+.piani{
+    margin-top: 150px;
+}
+
+.titolo{
+    font-size: 30px;
+    padding: 16px;
+}
+
+.selection-plan{
+padding-top:30px;
+padding-bottom: 30px;
+
+}
+
+.selection-plan label{
+    font-size: large;
+    vertical-align: middle;
+}
+
+.selection-plan input{
+    width: 20px;
+    height: 20px;
 }
 
 .col-100{
