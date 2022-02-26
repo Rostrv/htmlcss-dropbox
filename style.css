@@ -1,0 +1,125 @@
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --btn-bg-color: #0061FF;
+    --link-color: #0F6AFF;
+    --business-color: #61082B;
+    --border-col-30: #F7F7F8;
+    --bg-jumbo: #B4D0E7;
+    --border-bottom: #F0F0F1;
+    --bg-designit: #A2D39B;
+    --border-designit: #D0E9CD;
+    --bg-arizona: #61082B;
+    --bg-florida: #0093CE;
+    --bg-topps: #FF1C1C;
+    --bg-bicycle: #D5001F;
+    --bg-hearst: #B4D0E7;
+    --bg-lonely: #0D2481;
+    --bg-clear: #FFD830;
+    --bg-partner: #F5F5F5;
+    --hr-color: #E4E4E6;
+    --color-time: #7E8B96;
+    --hr-color-plan: #DBDBDD;
+    --check-color: #0765FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    background-color: blue;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    width: 100%;
+}
+
+.row [class^="col-"] {
+    float: left;
+    border: 1px solid black;
+
+}
+
+.col-50{
+    width: 50%;
+    height: 50px;
+}
+
+.col-50.sx {
+    background-color: yellow;
+    
+}
+.col-50.dx {
+    background-color: yellowgreen;
+    
+}
+
+.jumbo{
+    width: 100%;
+    background-color: var(--bg-jumbo);
+    height: 600px;
+}
+
+.container{
+    width: 70%;
+    max-width:1400px;
+    margin:0 auto;
+}
+
+.col-33{
+    width:33.33%;
+    height: 300px;
+    background-color: orange;
+}
+
+.col-100{
+    width:100%;
+    height: 100px;
+    background-color: orange;
+}
+
+.partner{
+    background-color: pink;
+}
+
+.col-40{
+    width: 40%;
+    background-color: #A2D39B;
+    height: 200px;
+}
+
+.col-60{
+    width: 60%;
+    background-color: #A2D39B;
+    height: 200px;
+}
+
+.col-30{
+    width:30%;
+    height:200px;
+    background-color: #A2D39B;
+}
+
+.col-30 .col-50{
+    height: 100px;
+    background-color: red;
+
+}
+
+.footer{
+    background-color: #000000;
+    height:300px;
+}
