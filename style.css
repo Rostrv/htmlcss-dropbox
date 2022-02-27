@@ -449,7 +449,7 @@ margin-right:280px;
 .trial{
     background-color: var(--bg-jumbo);
     height: 500px;
-    padding: 125px 0  0 ;
+    padding: 125px 0  0 ;margin-bottom: 100px;
 }
 
 .trial h2{
@@ -461,6 +461,29 @@ margin-right:280px;
     background-color: var(--color-white);
     padding: 10px 60px 10px 60px;
     margin-top: 10px;
+}
+
+
+.questions{
+    margin-bottom: 100px;
+}
+
+.questions-title{
+    padding-top: 60px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 40px;
+    padding-bottom: 30px; 
+}
+
+
+.domande{
+    padding: 50px 0 50px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.row-right{
+    float: right;
+        
 }
 
 .footer{
