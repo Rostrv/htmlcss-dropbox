@@ -486,7 +486,44 @@ margin-right:280px;
         
 }
 
-.footer{
+.site-footer{
     background-color: #000000;
-    height:300px;
+    height:500px;
+    padding-top: 50px;
+}
+
+.footer{
+    width:70%;
+    max-width: 1400px;
+}
+
+.col-fot{
+    width: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+.col-fot h4{
+    font-size: 25px;
+    color: white;
+
+}
+
+footer ul.unstyle>li>a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+
+.final{
+
+    color: #D5001F;
+}
+
+.lingua{
+    color: lightgrey;
+    width: 10%;
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
 }
